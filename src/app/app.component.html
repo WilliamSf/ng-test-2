@@ -1,6 +1,1 @@
-<app-photo-frame
-  [likes]="likes"
-  (liked)="like()"
-  description="Some description"
-  src="https://picsum.photos/200/200">
-</app-photo-frame>
+<app-photo-board [photos]="photos$ | async"></app-photo-board>
